@@ -40,7 +40,7 @@ Weights must sum to 1.0. Using a ticker not in `TICKER_META` raises an error at 
 ## Architecture
 
 ```
-Transaction CSVs (4 files)
+Transaction CSVs
     └─ load_transactions.py → transactions table
 
 prices table ←── load_prices.py ←── transactions table (real fills)
