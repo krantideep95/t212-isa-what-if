@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+data/*.db
+report.md
+data/transactions/*
+!data/transactions/.gitkeep
+data/holdings/*
+!data/holdings/.gitkeep
+.DS_Store
+.idea/
+.vscode/

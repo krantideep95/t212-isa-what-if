@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading212-xirr"
+version = "0.1.0"
+description = "Counterfactual ETF basket simulation for a Trading212 ISA"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "yfinance>=0.2.40",
+  "scipy>=1.13",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
